@@ -70,10 +70,7 @@ function changeCurrency() {
     if (currencySelect.value == "dolar")
     {currencyName.innerHTML= "Dólar americano"
      currencyImg.src ="./assets./usa.png"
-     valueCoinReal.innerHTML = new Intl.NumberFormat("pt-br", {
-        style: "currency",
-        currency: "BRL"
-    }).format(inputCurrencyValue)}
+    }
 
     if (currencySelect.value == "euro")
     {currencyName.innerHTML= "Euro"
@@ -89,8 +86,6 @@ function changeCurrency() {
     currencyImg.src ="./assets/bitcoin 1.png"}
     
     
-    convertValues()
-
 
 }
 
