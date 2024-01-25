@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #8a51fc;
+}
+
+.animação {
+    display: block;
+    Width: 300px;
+    margin: 20px auto;
+}
+
+main {
+    background-color: #ffffff;
+    border: 3px solid #800080;
+    Width: 375px;
+    Height: 735px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 44px 24px 23px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+select,
+input {
+    background: #ffffff;
+    border-radius: 4px;
+    border: 1px solid #8A2BE2;
+    width: 100%;
+    height: 48px;
+    margin-bottom: 24px;
+    padding-left: 18px;
+}
+
+
+button {
+    background-color: #6A5ACD;
+    cursor: pointer;
+    color: #E0FFFF;
+    border-radius: 5px;
+    width: 100%;
+    height: 44px;
+    padding: 0px 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.3;
+}
+
+section {
+    height: 338px;
+    width: auto;
+    border: 1.5px solid #8A2BE2;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.seta{
+    margin: 15px 0;
+}
+#brasil-coin{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+#usa-coin{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    background-color: #ffffff;
+}
+
+
+#euro-coin{ 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+#libra-coin{ 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+#bitcoin{ 
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.currency{
+    width: 28px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+ }
+.value-coin-bitcoin,
+.value-coin-libra,
+.value-coin-euro,
+.value-coin-dolar,
+.value-coin-real{
+    font-weight: 700;
+    width: 121px;
+    height: 18px;
+    font-size: 20px;
+    line-height: 18px;
+    color: #555555;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>conversor de moeda</title>
+
+</head>
+<body>
+    <img src="/conversor/assets/logo.gif" 
+    alt="animação-dinheiro" class="animação">
+    <main>
+        <label> converte <b>de</b>
+            <select>
+                <option value="real" >
+                        R$ Real brasileiro
+                </option>
+            </select>
+        </label>
+        <label> converte <b>para</b>
+            <select class="currency-select">
+
+                <option value="dolar" >
+                        US$ Dólar americano
+                </option>
+
+                <option value="euro" >
+                    € Euro
+                </option>
+
+                <option value="libra" >
+                    £ libra esterlina
+                </option>
+
+                <option value="bitcoin" >
+                    ₿ Bitcoin 
+                </option>
+            </select>
+        </label>
+
+        <label>
+            valor 
+                <input 
+                    placeholder="digite o valor a ser convertido" 
+                    class="input-currency" 
+                >
+                
+        </label>
+
+        <button class="convert-button"> converta aqui  </button>
+        <section>
+            <div id="brasil-coin">
+                <img src="./assets/brasil 2.png">
+                <p class="currency" id="real"> Real </p>
+                <p class="value-coin-real" > R$ 0,00 </p>
+            </div>
+           
+            <img src="./assets/Vector.png" class="seta"> 
+            
+            <div class="usa-coin" >
+                <img class="currency-img" src="./assets/usa.png">
+                <p class="currency" id="currency-name" > Dólar americano </p>
+                <br>
+                <p class="value-coin-dolar" > US$ 0,00 </p>
+            </div>
+            <div id="euro-coin">
+                <img src="./assets/euro.png">
+                <p class="currency" id="euro" > € Euro </p>
+                <br>
+                <p class="value-coin-euro" > € 0,00 </p>
+            </div>
+            <div id="libra-coin">
+                <img src="./assets/libra 1.png">
+                <p  class="currency" id="libra" > £ libra esterlina </p>
+                <br>
+                <p class="value-coin-libra" > £ 0,00 </p>
+            </div>
+            <div id="bitcoin">
+                <img src="./assets/bitcoin 1.png">
+                <p class="currency" id="bitcoin" > ₿ Bitcoin </p>
+                <br>
+                <p class="value-coin-bitcoin" > ₿tc 0,00 </p>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="./script.js"></script>
+</html>
