@@ -100,14 +100,14 @@ function convertValues2() {
     const bitcoinToday2 = 227366.22
 
     
-    if (currencySelect2.value == "realt") {
+    if (currencySelect2.value == "real") {
         valueCoinRealt.innerHTML = new Intl.NumberFormat("pt-br", {
             style: "currency",
             currency: "BRL"
         }).format(inputCurrencyValue/ CoinReal2);
     } 
 
-    if (currencySelect2.value == "dolart") {
+    if (currencySelect2.value == "dolar") {
         valueCoinDolart.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "USD"
@@ -115,7 +115,7 @@ function convertValues2() {
     }
 
 
-    if (currencySelect2.value == "eurot") {
+    if (currencySelect2.value == "euro") {
         valueCoinEurot.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "EUR"
@@ -123,14 +123,14 @@ function convertValues2() {
     }
 
 
-    if (currencySelect2.value == "librat") {
+    if (currencySelect2.value == "libra") {
         valueCoinLibrat.innerHTML = new Intl.NumberFormat("de-DE", {
             style: "currency",
             currency: "GBP"
         }).format(inputCurrencyValue / LibraToday2);
     }
 
-    if (currencySelect2.value == "bitcoint") {
+    if (currencySelect2.value == "bitcoin") {
         valueCoinBitcoint.innerHTML = new Intl.NumberFormat("de-DE", {
             maximumSignificantDigits: 10,
             style: "currency",
@@ -142,25 +142,25 @@ function convertValues2() {
 }
 function changeCurrencyt() {
 
-    if (currencySelect2.value == "realt") { document.getElementById("brasil-coin2").style.display = "flex"; }
+    if (currencySelect2.value == "real") { document.getElementById("brasil-coin2").style.display = "flex"; }
     else {
         document.getElementById("brasil-coin2").style.display = "none";
     }
-    if (currencySelect2.value == "dolart") { document.getElementById("usa-coin2").style.display = "flex"; }
+    if (currencySelect2.value == "dolar") { document.getElementById("usa-coin2").style.display = "flex"; }
     else {
         document.getElementById("usa-coin2").style.display = "none";
     }
 
-    if (currencySelect2.value == "eurot") { document.getElementById("euro-coin2").style.display = "flex"; }
+    if (currencySelect2.value == "euro") { document.getElementById("euro-coin2").style.display = "flex"; }
     else {
         document.getElementById("euro-coin2").style.display = "none";
     }
 
-    if (currencySelect2.value == "librat") { document.getElementById("libra-coin2").style.display = "flex"; }
+    if (currencySelect2.value == "libra") { document.getElementById("libra-coin2").style.display = "flex"; }
     else {
         document.getElementById("libra-coin2").style.display = "none";
     }
-    if (currencySelect2.value == "bitcoint") { document.getElementById("bitcoin2").style.display = "flex"; }
+    if (currencySelect2.value == "bitcoin") { document.getElementById("bitcoin2").style.display = "flex"; }
     else {
         document.getElementById("bitcoin2").style.display = "none";
     }
